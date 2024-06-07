@@ -22,7 +22,7 @@ const ContextProvider = (props) => {
     setShowResult(false);
   };
 
-  const onSent = async (prompt) => {
+  const onSent = async (input) => {
     setResultData("");
     setLoading(true);
     setShowResult(true);
